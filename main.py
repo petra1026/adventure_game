@@ -151,3 +151,4 @@ def find_ally():
 
     print("Kas ir šis cilvēks? Vai viņš var tev palīdzēt?(pie sevis domās)")
     time.sleep(a)
+    print("Tu ej viņam līdzi mazā kafejnīcā, un sākas jauns piedzīvojums...")
