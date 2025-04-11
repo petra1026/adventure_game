@@ -153,3 +153,5 @@ def find_ally():
     time.sleep(a)
     print("Tu ej viņam līdzi mazā kafejnīcā, un sākas jauns piedzīvojums...")
     time.sleep(a)
+    print("* TURPINĀJUMS SEKOS *")
+    
