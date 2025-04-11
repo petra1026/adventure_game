@@ -140,3 +140,11 @@ def find_ally():
     time.sleep(a)
     print("Kad tavs skatiens sastopas ar viņu, viņš pietuvojas un klusi saka:")
     time.sleep(a)
+
+    s5 = '"Tu neizskaties kā vietējais... Man liekas, ka mums ir jāparunā."'
+    for character in s5:
+        sys.stdout.write(character)
+    sys.stdout.flush()
+        time.sleep(b)
+    print()
+    time.sleep(a)    
