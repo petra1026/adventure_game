@@ -150,3 +150,4 @@ def find_ally():
     time.sleep(a)    
 def stay_home():
      print()
+     print("Tu paliec mājās un mēģini saprast, kas notiek.")
