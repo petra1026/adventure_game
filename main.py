@@ -133,3 +133,8 @@ def explore_riga():
         stay_home()
 
 def find_ally():
+    print()
+    print("Tu nolem meklēt kādu, kas varētu tev palīdzēt saprast situāciju.")
+    time.sleep(a)
+    print("Ejot pa ielu, tu pamani vīrieti ar pelēku uzvalku, kurš uzmanīgi vēro apkārtni.")
+    time.sleep(a)
