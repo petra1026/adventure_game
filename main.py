@@ -94,3 +94,33 @@ def explore_riga():
     else: 
         print("Nepareiza izvēle. Mēģini vēlreiz.")  
         explore_riga()
+    def stay_home():
+         print()
+         print("Tu paliec mājās un mēģini saprast, kas notiek.")
+         time.sleep(a)
+         print("Tu apskati istabu un atrodi dažus vecus dokumentus ar datumiem no 1930. gadiem.")
+    time.sleep(a)
+    print("Kāds liekama sajūta tev saka, ka šie papīri varētu būt svarīgi.")
+    time.sleep(a)
+    print("Pēkšņi uz radio sāk runāt ziņu diktors.")
+    time.sleep(a)
+
+    s4 = '"Šodien, 1939. gada 23. augustā, Maskavā tika parakstīts līgums starp Vāciju un PSRS..."'
+    for character in s4:
+        sys.stdout.write(character)
+        sys.stdout.flush()
+        time.sleep(b)
+        print()
+    time.sleep(a)
+     print("Tava sirds sāk sisties straujāk – tu zini, ko nozīmē šis datums.")
+    time.sleep(a)
+    print("Tu esi nokļuvis brīdī, kad Latvijas nākotne vēl ir neskaidra.")
+    time.sleep(a)
+
+     print("Tagad tev jāizlemj:")
+    time.sleep(a)
+
+    print("1) Meklēt atbildes ielās un runāt ar cilvēkiem.")
+    print("2) Palikt istabā un mēģināt atrast vēl vairāk informācijas.")
+    
+    choice = input("Ko tu izvēlēsies? (1/2): ")
