@@ -138,3 +138,5 @@ def find_ally():
     time.sleep(a)
     print("Ejot pa ielu, tu pamani vīrieti ar pelēku uzvalku, kurš uzmanīgi vēro apkārtni.")
     time.sleep(a)
+    print("Kad tavs skatiens sastopas ar viņu, viņš pietuvojas un klusi saka:")
+    time.sleep(a)
