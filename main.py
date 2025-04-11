@@ -112,23 +112,23 @@ def explore_riga():
         time.sleep(b)
         print()
     time.sleep(a)
-     print("Tava sirds sāk sisties straujāk – tu zini, ko nozīmē šis datums.")
+    print("Tava sirds sāk sisties straujāk – tu zini, ko nozīmē šis datums.")
     time.sleep(a)
     print("Tu esi nokļuvis brīdī, kad Latvijas nākotne vēl ir neskaidra.")
     time.sleep(a)
 
-     print("Tagad tev jāizlemj:")
-    time.sleep(a)
+print("Tagad tev jāizlemj:")
+time.sleep(a)
 
-    print("1) Meklēt atbildes ielās un runāt ar cilvēkiem.")
-    print("2) Palikt istabā un mēģināt atrast vēl vairāk informācijas.")
+print("1) Meklēt atbildes ielās un runāt ar cilvēkiem.")
+print("2) Palikt istabā un mēģināt atrast vēl vairāk informācijas.")
     
-    choice = input("Ko tu izvēlēsies? (1/2): ")
-    if choice == "1":
+choice = input("Ko tu izvēlēsies? (1/2): ")
+if choice == "1":
         explore_riga()
-    elif choice == "2":
+elif choice == "2":
         investigate_home()
-    else:
+else:
         print("Nepareiza izvēle. Mēģini vēlreiz.")
         stay_home()
 
