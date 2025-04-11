@@ -148,3 +148,6 @@ def find_ally():
     time.sleep(b)
     print()
     time.sleep(a)    
+
+    print("Kas ir šis cilvēks? Vai viņš var tev palīdzēt?(pie sevis domās)")
+    time.sleep(a)
