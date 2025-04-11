@@ -157,3 +157,5 @@ def find_ally():
     time.sleep(a)
     print()
     print("Tu nolem palikt un paklausīties Ulmaņa runu.")
+    time.sleep(a)
+    
