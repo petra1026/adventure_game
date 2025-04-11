@@ -158,4 +158,7 @@ def find_ally():
     print()
     print("Tu nolem palikt un paklausīties Ulmaņa runu.")
     time.sleep(a)
-    
+    print("Viņš runā par Latvijas nākotni, tautas spēku un nepieciešamību saglabāt valsts neatkarību.")
+    time.sleep(a)
+    print("Cilvēki applaudē un skandē 'Latvijai būt!', bet tu nevari nedomāt par to, kas notiks tālāk...")
+    time.sleep(a)
