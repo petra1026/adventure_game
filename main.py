@@ -149,4 +149,4 @@ def find_ally():
     print()
     time.sleep(a)    
 def stay_home():
-     
+     print()
