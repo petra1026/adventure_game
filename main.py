@@ -148,3 +148,5 @@ def find_ally():
     time.sleep(b)
     print()
     time.sleep(a)    
+def stay_home():
+     
