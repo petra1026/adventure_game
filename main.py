@@ -145,6 +145,6 @@ def find_ally():
     for character in s5:
         sys.stdout.write(character)
     sys.stdout.flush()
-        time.sleep(b)
+    time.sleep(b)
     print()
     time.sleep(a)    
