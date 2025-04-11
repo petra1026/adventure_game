@@ -124,3 +124,12 @@ def explore_riga():
     print("2) Palikt istabā un mēģināt atrast vēl vairāk informācijas.")
     
     choice = input("Ko tu izvēlēsies? (1/2): ")
+    if choice == "1":
+        explore_riga()
+    elif choice == "2":
+        investigate_home()
+    else:
+        print("Nepareiza izvēle. Mēģini vēlreiz.")
+        stay_home()
+
+def find_ally():
