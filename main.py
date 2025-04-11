@@ -155,3 +155,4 @@ def find_ally():
     time.sleep(a)
     print("* TURPINĀJUMS SEKOS *")
     time.sleep(a)
+    print()
