@@ -86,14 +86,14 @@ def explore_riga():
     print("2) Saplūst ar pūli un klausīties Ulmaņa runu.")
 
     choice = input("Ko tu izvēlēsies? (1/2): ")
-
     if choice == "1":
         find_ally()
     elif choice == "2":
         listen_speech()
-    else: 
-        print("Nepareiza izvēle. Mēģini vēlreiz.")  
+    else:
+        print("Nepareiza izvēle. Mēģini vēlreiz.")
         explore_riga()
+
     def stay_home():
          print()
          print("Tu paliec mājās un mēģini saprast, kas notiek.")
