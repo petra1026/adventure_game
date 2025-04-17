@@ -159,16 +159,7 @@ def find_ally():
     print("* TURPINĀJUMS SEKOS *")
     time.sleep(5)
 
-def listen_speech():
-    print()
-    print("Tu nolem palikt un klausīties Ulmaņa runu.")
-    time.sleep(a)
-    print("Viņš runā par Latvijas nākotni, tautas spēku un nepieciešamību saglabāt valsts neatkarību.")
-    time.sleep(a)
-    print("Cilvēki applaudē un skandē 'Latvijai būt!', bet tu nevari nedomāt par to, kas notiks tālāk.")
-    time.sleep(a)
-    
-    print("Tu esi vēstures epicentrā, bet vai vari to mainīt?")
+print("Tu esi vēstures epicentrā, bet vai vari to mainīt?")
     time.sleep(a)
     print("Tu sāc saprast, ka tava klātbūtne šeit var būt nozīmīgāka, nekā šķiet.")
     time.sleep(a)
@@ -186,73 +177,46 @@ def listen_speech():
         leave_cafe()
     else:
         print("Nepareiza izvēle. Mēģini vēlreiz.")
-       listen_speech()
-
-    def stay_home():
-         print()
-         print("Tu paliec mājās un mēģini saprast, kas notiek.")
-         time.sleep(a)
-         print("Tu apskati istabu un atrodi dažus vecus dokumentus ar datumiem no 1930. gadiem.")
+        listen_speech()
+        
+def drink_coffee():
+    print()
+    print("Tu piesardzīgi noliek savu telefonu uz galda, lai pierādītu Edvardam, ka neesi drauds.")
     time.sleep(a)
-    print("Kāds liekama sajūta tev saka, ka šie papīri varētu būt svarīgi.")
+    print("Viņš skatās uz tevi, pēc tam uz telefonu, un viegli pasmaida.")
     time.sleep(a)
-    print("Pēkšņi uz radio sāk runāt ziņu diktors.")
-    time.sleep(a)
-
-    s4 = '"Šodien, 1939. gada 23. augustā, Maskavā tika parakstīts līgums starp Vāciju un PSRS..."'
-    for character in s4:
+    
+    s6 = '"Gudrs lēmums," viņš saka. "Tas nozīmē, ka mēs varam runāt atklātāk."'
+    for character in s6:
         sys.stdout.write(character)
         sys.stdout.flush()
         time.sleep(b)
-        print()
+    print()
     time.sleep(a)
-    print("Tava sirds sāk sisties straujāk – tu zini, ko nozīmē šis datums.")
-    time.sleep(a)
-    print("Tu esi nokļuvis brīdī, kad Latvijas nākotne vēl ir neskaidra.")
-    time.sleep(a)
-
-print("Tagad tev jāizlemj:")
-time.sleep(a)
-
-print("1) Meklēt atbildes ielās un runāt ar cilvēkiem.")
-print("2) Palikt istabā un mēģināt atrast vēl vairāk informācijas.")
     
-choice = input("Ko tu izvēlēsies? (1/2): ")
-if choice == "1":
-        explore_riga()
-elif choice == "2":
-        investigate_home()
-else:
-        print("Nepareiza izvēle. Mēģini vēlreiz.")
-        stay_home()
-
-def find_ally():
-    print()
-    print("Tu nolem meklēt kādu, kas varētu tev palīdzēt saprast situāciju.")
+    print("Viņš uzaicina tevi pasēdēt pie galda un pasūta divas kafijas.")
     time.sleep(a)
-    print("Ejot pa ielu, tu pamani vīrieti ar pelēku uzvalku, kurš uzmanīgi vēro apkārtni.")
+    print("Tu centies saprast, kāpēc viņš šķiet tik neparasts – viņa mati ir neparasti krāsaini šajā laikmetā, un tehnoloģijas viņam šķiet aizdomīgas.")
     time.sleep(a)
-    print("Kad tavs skatiens sastopas ar viņu, viņš pietuvojas un klusi saka:")
+    
+    print("Kad kafija tiek atnesta, Edvards skatās, kā tu iedzer pirmo malku.")
     time.sleep(a)
-
-    s5 = '"Tu neizskaties kā vietējais... Man liekas, mums ir jāparunā."'
-    for character in s5:
+    print("Dzēriens ir silts, bet pēc brīža tu sajūti vieglu reiboni. Galva kļūst smaga, un redze sāk migloties.")
+    time.sleep(a)
+    
+    print("Pirms tu pilnībā zaudē samaņu, tu dzirdi Edvarda balsi:")
+    time.sleep(a)
+    
+    s7 = '"Tu tiešām nevajadzēji atrasties šeit. Piedod, bet tev nāksies palikt pagātnē..."'
+    for character in s7:
         sys.stdout.write(character)
-    sys.stdout.flush()
-    time.sleep(b)
+        sys.stdout.flush()
+        time.sleep(b)
     print()
-    time.sleep(a)    
-
-    print("Kas ir šis cilvēks? Vai viņš var tev palīdzēt?(pie sevis domās)")
     time.sleep(a)
-    print("Tu ej viņam līdzi mazā kafejnīcā, un sākas jauns piedzīvojums...")
+    
+    print("Tavs ķermenis kļūst vājš, un pēdējais, ko tu redzi, ir Edvarda noslēpumainais smaids.")
     time.sleep(a)
-    print("* TURPINĀJUMS SEKOS *")
-    time.sleep(a)
-    print()
-    print("Tu nolem palikt un paklausīties Ulmaņa runu.")
-    time.sleep(a)
-    print("Viņš runā par Latvijas nākotni, tautas spēku un nepieciešamību saglabāt valsts neatkarību.")
-    time.sleep(a)
-    print("Cilvēki applaudē un skandē 'Latvijai būt!', bet tu nevari nedomāt par to, kas notiks tālāk...")
+    
+    print("SPĒLES BEIGAS... vai tomēr turpinājums sekos?")
     time.sleep(a)
