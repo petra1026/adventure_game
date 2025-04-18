@@ -1,8 +1,8 @@
 import time
 import sys
 
-a = 5 # sekundes starp katru rindkopu
-b = 7 # sekundes starp katru rindkopu
+a = 4 # sekundes starp katru rindkopu
+b = 5 # sekundes starp katru rindkopu
 c = 0.1 # sekundes starp katru rindkopu
 
 
@@ -24,7 +24,7 @@ def intro():
         sys.stdout.flush()
         time.sleep(c)
     print()
-    time.sleep(a)
+    time.sleep(b)
 
     print("Tu piecelies un pieej pie loga.")
     time.sleep(a)
@@ -39,7 +39,7 @@ def intro():
         sys.stdout.flush()
         time.sleep(c)
     print()
-    time.sleep(a)
+    time.sleep(b)
 
     print("Tev ir divas izvēles:")
     time.sleep(a)
@@ -75,9 +75,9 @@ def explore_riga():
     for character in s3:
         sys.stdout.write(character)
         sys.stdout.flush()
-        time.sleep(b)
+        time.sleep(c)
     print()
-    time.sleep(a)
+    time.sleep(b)
 
     print("Tu saproti, ka šī nav tikai ilūzija vai sapnis – tu patiešām esi pagātnē.")
     time.sleep(a)
@@ -102,7 +102,7 @@ def stay_home():
     time.sleep(a)
     print("Tu apskati istabu un atrodi dažus vecus dokumentus ar datumiem no 1930. gadiem.")
     time.sleep(a)
-    print("Kāda liekama sajūta tev saka, ka šie papīri varētu būt svarīgi.")
+    print("Kāda iekšēja sajūta tev saka, ka šie papīri varētu būt svarīgi.")
     time.sleep(a)
     print("Pēkšņi uz radio sāk runāt ziņu diktors.")
     time.sleep(a)
@@ -111,9 +111,9 @@ def stay_home():
     for character in s4:
         sys.stdout.write(character)
         sys.stdout.flush()
-        time.sleep(b)
+        time.sleep(c)
     print()
-    time.sleep(a)
+    time.sleep(b)
     
     print("Tava sirds sāk sisties straujāk – tu zini, ko nozīmē šis datums.")
     time.sleep(a)
@@ -148,9 +148,9 @@ def investigate_home():
     for character in s9:
         sys.stdout.write(character)
         sys.stdout.flush()
-        time.sleep(b)
+        time.sleep(c)
     print()
-    time.sleep(a)
+    time.sleep(b)
     
     print("Tu sāc apjaust, ka tava klātbūtne šeit nav nejauša.")
     time.sleep(a)
@@ -171,15 +171,15 @@ def listen_speech():
     
     print("Tagad tev jāizlemj:")
     time.sleep(a)
-    print("1) Iedzert kafiju un mēģināt iegūt vairāk informācijas no Edvarda.")
-    print("2) Aiziet prom no kafejnīcas.")
+    print("1) Mēģināt atrast kādu, kurš varētu tev izskaidrot, kas notiek.")
+    print("2) Doties atpakaļ uz mājām un apskatīt to.")
     
     choice = input("Ko tu izvēlēsies? (1/2): ")
     
     if choice == "1":
-        drink_coffee()
+        find_ally()
     elif choice == "2":
-        leave_cafe()
+        investigate_home()
     else:
         print("Nepareiza izvēle. Mēģini vēlreiz.")
         listen_speech()
@@ -199,9 +199,9 @@ def find_ally():
     for character in s5:
         sys.stdout.write(character)
         sys.stdout.flush()
-        time.sleep(b)
+        time.sleep(c)
     print()
-    time.sleep(a)
+    time.sleep(b)
     
     print("Kas ir šis cilvēks? Vai viņš var tev palīdzēt?")
     time.sleep(a)
@@ -210,41 +210,21 @@ def find_ally():
     
     print("* TURPINĀJUMS SEKOS *")
     time.sleep(5)
-
-    print("Tu esi vēstures epicentrā, bet vai vari to mainīt?")
-    time.sleep(a)
-    print("Tu sāc saprast, ka tava klātbūtne šeit var būt nozīmīgāka, nekā šķiet.")
-    time.sleep(a)
     
-    print("Tagad tev jāizlemj:")
-    time.sleep(a)
-    print("1) Iedzert kafiju un mēģināt iegūt vairāk informācijas no Edvarda.")
-    print("2) Aiziet prom no kafejnīcas.")
-    
-    choice = input("Ko tu izvēlēsies? (1/2): ")
-    
-    if choice == "1":
-        drink_coffee()
-    elif choice == "2":
-        leave_cafe()
-    else:
-        print("Nepareiza izvēle. Mēģini vēlreiz.")
-        listen_speech()
-        
 def drink_coffee():
     print()
-    print("Tu piesardzīgi noliek savu telefonu uz galda, lai pierādītu Edvardam, ka neesi drauds.")
+    print("Tu piesardzīgi noliec savas rokas uz galda, lai pierādītu Edvardam, ka neesi drauds.")
     time.sleep(a)
-    print("Viņš skatās uz tevi, pēc tam uz telefonu, un viegli pasmaida.")
+    print("Viņš skatās uz tevi, pēc tam uz tavām rokām, un viegli pasmaida.")
     time.sleep(a)
     
     s6 = '"Gudrs lēmums," viņš saka. "Tas nozīmē, ka mēs varam runāt atklātāk."'
     for character in s6:
         sys.stdout.write(character)
         sys.stdout.flush()
-        time.sleep(b)
+        time.sleep(c)
     print()
-    time.sleep(a)
+    time.sleep(b)
     
     print("Viņš uzaicina tevi pasēdēt pie galda un pasūta divas kafijas.")
     time.sleep(a)
@@ -263,9 +243,9 @@ def drink_coffee():
     for character in s7:
         sys.stdout.write(character)
         sys.stdout.flush()
-        time.sleep(b)
+        time.sleep(c)
     print()
-    time.sleep(a)
+    time.sleep(b)
     
     print("Tavs ķermenis kļūst vājš, un pēdējais, ko tu redzi, ir Edvarda noslēpumainais smaids.")
     time.sleep(a)
@@ -275,7 +255,7 @@ def drink_coffee():
 
 def leave_cafe():
     print()
-    print("Tu pieceļies un pamāj ar galvu, atvainojies un dodies prom.")
+    print("Tu piecelies un pamāj ar galvu, atvainojies un dodies prom.")
     time.sleep(a)
     print("Edvards tikai nopūšas un saka:")
     time.sleep(a)
@@ -283,7 +263,7 @@ def leave_cafe():
     for character in s8:
         sys.stdout.write(character)
         sys.stdout.flush()
-        time.sleep(b)
+        time.sleep(c)
     print()
     time.sleep(a)
     print("Tu iznāc ārā un domā – kas patiesībā bija šis cilvēks un kā viņš zināja par tevi?")
