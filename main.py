@@ -1,16 +1,17 @@
 import time
 import sys
 
-a = 1 # sekundes starp katru rindkopu
-b = 0.05 # sekundes starp katru rindkopu
+a = 5 # sekundes starp katru rindkopu
+b = 7 # sekundes starp katru rindkopu
 c = 0.1 # sekundes starp katru rindkopu
+
 
 def intro():
     print("Tu pamosties no skaļa tramvaja zvana aiz loga.")
     time.sleep(a)
     print("Pavēries apkārt – istaba izskatās citādi nekā ierasts.")
     time.sleep(a)
-    print("Nav televizora, nav datora... Tikai vecs radio uz koka galds.")
+    print("Nav televizora, nav datora... Tikai vecs radio uz koka galda.")
     time.sleep(a)
     print("Caur logu tu redzi ielu, kas izskatās neparasti – cilvēki ģērbti vecmodīgi, un automašīnas ir senlaicīgas.")
     time.sleep(a)
@@ -36,7 +37,7 @@ def intro():
     for character in s2:
         sys.stdout.write(character)
         sys.stdout.flush()
-        time.sleep(b)
+        time.sleep(c)
     print()
     time.sleep(a)
 
@@ -290,3 +291,6 @@ def leave_cafe():
     print("Tu ej tālāk pa ielu, mēģinot saprast, kā atgriezties mājās.")
     time.sleep(a)
     print("* SPĒLES BEIGAS – Bet pasaule joprojām gaida atbildes... *")
+
+if __name__ == "__main__":
+    intro()
