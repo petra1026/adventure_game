@@ -101,7 +101,7 @@ def stay_home():
     time.sleep(a)
     print("Tu apskati istabu un atrodi dažus vecus dokumentus ar datumiem no 1930. gadiem.")
     time.sleep(a)
-    print("Kāds liekama sajūta tev saka, ka šie papīri varētu būt svarīgi.")
+    print("Kāda liekama sajūta tev saka, ka šie papīri varētu būt svarīgi.")
     time.sleep(a)
     print("Pēkšņi uz radio sāk runāt ziņu diktors.")
     time.sleep(a)
@@ -140,7 +140,7 @@ def find_ally():
     time.sleep(a)
     print("Ejot pa ielu, tu pamani vīrieti ar pelēku uzvalku, kurš uzmanīgi vēro apkārtni.")
     time.sleep(a)
-    print("Kad tavs skatiens sastopas ar viņu, viņš pietuvojas un klusi saka:")
+    print("Kad tavs skatiens sastopas ar viņa, viņš pietuvojas un klusi saka:")
     time.sleep(a)
     
     s5 = '"Tu neizskaties kā vietējais... Man liekas, ka mums ir jāparunā."'
@@ -207,7 +207,7 @@ def drink_coffee():
     print("Pirms tu pilnībā zaudē samaņu, tu dzirdi Edvarda balsi:")
     time.sleep(a)
     
-    s7 = '"Tu tiešām nevajadzēji atrasties šeit. Piedod, bet tev nāksies palikt pagātnē..."'
+    s7 = '"Tev tiešām nevajadzēja šeit atrasties. Piedod, bet tev nāksies palikt pagātnē..."'
     for character in s7:
         sys.stdout.write(character)
         sys.stdout.flush()
